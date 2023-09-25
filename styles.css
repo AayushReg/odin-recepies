@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight:1500;
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+    color: silver;
+    font-size: 1.4rem;
+    display: block;
+    margin: 20px;
+    text-align: left;
+    
+    
+}
+
+.links{
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+/* momo */
+
+.momo{
+    background-color: beige;
+}
+.momo a{
+    text-align: center;
+}
+.momo ol,ul{
+    list-style: none;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section-1{
+    margin-left: 140px;
+}
